@@ -21,7 +21,7 @@ function isScreenSharingEnabled() {
 }
 
 function promptEnableScreenSharing() {
-  const res = spawnSynci(
+  const res = spawnSync(
     'osascript',
     [
       '-e',
