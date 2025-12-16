@@ -1,6 +1,7 @@
 {
   "name": "pynqvnc",
   "main": "index.js",
+  "version": "0.0.1",
   "pear": {
     "name": "synqvnc",
     "type": "terminal"
@@ -20,6 +21,8 @@
   },
   "dependencies": {
     "bare-process": "^4.2.2",
-    "child_process": "npm:bare-subprocess@^5.2.2"
+    "bare-subprocess": "^5.2.2",
+    "holesail": "^2.4.1",
+    "paparam": "^1.9.1"
   }
 }
