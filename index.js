@@ -93,7 +93,8 @@ const connect = command(
     const vnc = new Holesail({
       client: true,
       key: key,
-      port: 5999
+      port: 5999,
+      secure: true
     })
 
     await vnc.ready()
