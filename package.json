@@ -1,0 +1,25 @@
+{
+  "name": "pynqvnc",
+  "main": "index.js",
+  "pear": {
+    "name": "synqvnc",
+    "type": "terminal"
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d .",
+    "lint": "npx prettier . --write",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0",
+    "prettier": "^3.7.4",
+    "prettier-config-holepunch": "^2.0.0"
+  },
+  "dependencies": {
+    "bare-process": "^4.2.2",
+    "child_process": "npm:bare-subprocess@^5.2.2"
+  }
+}
